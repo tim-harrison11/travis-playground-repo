@@ -1,5 +1,5 @@
 lang: ruby
-os: linux
+os: osx
 dist: focal
 script:
 - echo -e "!!!!!!testing!!!!!!"
