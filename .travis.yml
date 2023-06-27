@@ -1,6 +1,6 @@
 lang: ruby
 os: linux
 dist: focal
-
+script: echo "test"
 
 
