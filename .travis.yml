@@ -1,5 +1,4 @@
 lang: ruby
 os: osx
-dist: focal
 script:
-- echo -e "!!!!!!testing!!!!!!"
+- echo -e "!!!!!!testing!!!!!"
