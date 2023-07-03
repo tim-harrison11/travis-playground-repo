@@ -2,4 +2,4 @@ lang: ruby
 os: linux
 dist: focal
 script:
-- echo -e "!!!!!!testing!!!!!!"
+- echo -e "!!!!!!testing!!!!!"
