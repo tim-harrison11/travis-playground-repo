@@ -11,4 +11,4 @@ vm:
   size: gpu-medium
 python: '3.9'
 arch: amd64
-script: echo 'testing!!!!!'
+script: echo 'testing!!!!'
