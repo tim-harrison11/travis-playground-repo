@@ -11,4 +11,12 @@ vm:
   size: gpu-medium
 python: '3.9'
 arch: amd64
-script: echo 'testing!!!!!'
+script:
+- |-
+  df -h
+  lspci
+  echo "Going for sleep"
+  for ((i=1; i<=1; i++)); do
+    echo "Elapsed minutes: $i"
+    sleep 60s
+  done
