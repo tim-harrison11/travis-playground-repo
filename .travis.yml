@@ -1,19 +1,14 @@
 os: linux
+language: python
 dist: focal
-jobs:
-  include:
-    - stage: "GPU medium build"
-      name: "GPU medium job"
-      dist: focal
-      addons:
-        tensorflow: 2.6.2
-        blender: 3.4.1
-      vm:
-        size: 'gpu-medium'
-      language: python
-      python:
-        - "3.9"
-      arch: 'amd64'
-      script: echo
-
-
+group: stable
+stage: Instal addons on linux
+name: addons on focal distribution gpu medium
+addons:
+  blender: 3.4.1
+  tensor_flow: 1.6.0
+vm:
+  size: gpu-medium
+python: '3.9'
+arch: amd64
+script: echo 'testing!!!!'
