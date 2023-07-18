@@ -5,6 +5,9 @@ jobs:
     - stage: "GPU medium build"
       name: "GPU medium job"
       dist: focal
+      addons:
+        tensorflow: 2.6.2
+        blender: 3.4.1
       vm:
         size: 'gpu-medium'
       language: python
