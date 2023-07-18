@@ -1,7 +1,6 @@
 os: linux
 language: python
 dist: focal
-group: stable
 stage: Instal addons on linux
 name: addons on focal distribution gpu medium
 addons:
