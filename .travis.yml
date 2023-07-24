@@ -4,6 +4,11 @@ dist: focal
 stage: Instal addons on linux
 group: edge
 name: addons on focal distribution gpu medium
+addons:
+  blender: 3.4.1
+  tensor_flow: 1.6.0
+vm:
+  size: gpu-medium
 python: '3.9'
 arch: amd64
 script:
@@ -15,4 +20,3 @@ script:
     echo "Elapsed minutes: $i"
     sleep 60s
   done
-
