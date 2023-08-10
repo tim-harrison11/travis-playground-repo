@@ -3,9 +3,11 @@ language: python
 dist: focal
 stage: Instal addons on linux
 group: edge
-name: addons on focal distribution gpu medium
+name: Premium VM builds
 python: '3.9'
 arch: amd64
+vm:
+  size: large
 script:
 - |-
   df -h
