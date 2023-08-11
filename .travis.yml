@@ -7,7 +7,7 @@ name: Premium VM builds
 python: '3.9'
 arch: amd64
 vm:
-  size: large
+  size: x-large
 script:
 - |-
   df -h
