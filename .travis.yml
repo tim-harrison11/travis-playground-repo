@@ -17,4 +17,3 @@ script:
     echo "Elapsed minutes: $i"
     sleep 60s
   done
-
