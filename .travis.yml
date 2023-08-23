@@ -8,7 +8,7 @@ jobs:
 notifications:
   email:
     recipients:
-      - the.tim.harrison@gmail.com
+      - the.tim.harrison10@gmail.com
     on_success: always
     on_failure: always
 
