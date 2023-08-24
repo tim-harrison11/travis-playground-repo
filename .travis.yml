@@ -1,17 +1,7 @@
-lang: ruby
 os: linux
 dist: focal
+arch: amd64
+language: ruby
 jobs:
-  include:
-    - stage: test1
-      script: echo -e "testing 1"
-    - stage: test2
-      script: echo -e "testing 2"
-    - stage: test3
-      script: echo -e "testing 3"
-    - stage: test4
-      script: echo -e "testing 4"
-    - stage: test5
-      script: echo -e "testing 5"
-
-
+- CI_NODE_INDEX=0
+- CI_NODE_INDEX=1
