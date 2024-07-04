@@ -1,17 +1,28 @@
-lang: ruby
+language: shell
 os: linux
 dist: focal
+
+install: skip
+
 jobs:
   include:
-    - stage: test1
-      script: echo -e "testing 1"
-    - stage: test2
-      script: echo -e "testing 2"
-    - stage: test3
-      script: echo -e "testing 3"
-    - stage: test4
-      script: echo -e "testing 4"
-    - stage: test5
-      script: echo -e "testing 5"
-
-
+   - stage: A
+     script: true
+   - stage: A
+     script: false
+   - stage: A
+     script: sleep 120
+   - stage: A
+     script: sleep 200
+   - stage: A
+     script: sleep 180
+   - stage: B
+     script: sleep 1
+   - stage: B
+     script: sleep 7
+   - stage: B
+     script: sleep 8
+   - stage: B
+     script: sleep 9
+   - stage: C
+     script: sleep 10
